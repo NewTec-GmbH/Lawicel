@@ -55,8 +55,8 @@ extern "C"
 /* CONSTANTS **************************************************************************************/
 
 const uint16_t Lawicel::MAX_TIMESTAMP = 0xEA5F;  /**< Maximum value of a Timestamp, representing 1 Minute. */
-const String Lawicel::X_VERSION = "V0101";       /**< Hardware and Software Version. */
-const String Lawicel::X_SERIAL_NUMBER = "NNT32"; /**< Hardware Serial Number. */
+const char *Lawicel::X_VERSION = "V0101";       /**< Hardware and Software Version. */
+const char *Lawicel::X_SERIAL_NUMBER = "NNT32"; /**< Hardware Serial Number. */
 const char Lawicel::CR = 13;                     /**< CR Character as OK Line Terminator. */
 const char Lawicel::BELL = 7;                    /**< BEL Character as ERROR Line Terminator. */
 const uint8_t Lawicel::MAX_COMMAND_LENGTH = 30;  /**< Maximum Length of a Lawicel Command. */

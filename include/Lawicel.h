@@ -67,8 +67,8 @@ class Lawicel
 public:
     /* CONSTANTS ******************************************************************************/
     static const uint16_t MAX_TIMESTAMP;     /**< Maximum value of a Timestamp, representing 1 Minute. */
-    static const String X_VERSION;           /**< Hardware and Software Version. */
-    static const String X_SERIAL_NUMBER;     /**< Hardware Serial Number. */
+    static const char *X_VERSION;           /**< Hardware and Software Version. */
+    static const char *X_SERIAL_NUMBER;     /**< Hardware Serial Number. */
     static const char CR;                    /**< CR Character as OK Line Terminator. */
     static const char BELL;                  /**< BEL Character as ERROR Line Terminator. */
     static const uint8_t MAX_COMMAND_LENGTH; /**< Maximum Length of a Lawicel Command. */

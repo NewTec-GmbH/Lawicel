@@ -70,13 +70,13 @@ public:
     /**
      *  Key Definition (Addresses) to be read by NVM Adapter for initialization
      */
-    const String INIT_SERIAL_BAUD = "SerialBaud"; /**< Initial Serial Baudrate*/
-    const String INIT_TIMESTAMP = "ToggleTime";   /**< Initial State of Timestamp*/
-    const String INIT_AUTO_START = "AutoStart";   /**< Initial State of Autostart*/
-    const String INIT_CAN_BAUD = "CanBaud";       /**< Initial CAN Baudrate*/
-    const String INIT_FILTER_MODE = "FilterMode"; /**< Initial Filter Mode*/
-    const String INIT_FILTER_ACN = "FilterACn";   /**< Initial Filter Address*/
-    const String INIT_FILTER_AMN = "FilterAMn";   /**< Initial Filter Mask*/
+   static const char *INIT_SERIAL_BAUD; /**< Initial Serial Baudrate*/
+   static const char *INIT_TIMESTAMP;   /**< Initial State of Timestamp*/
+   static const char *INIT_AUTO_START;  /**< Initial State of Autostart*/
+   static const char *INIT_CAN_BAUD;    /**< Initial CAN Baudrate*/
+   static const char *INIT_FILTER_MODE; /**< Initial Filter Mode*/
+   static const char *INIT_FILTER_ACN;  /**< Initial Filter Address*/
+   static const char *INIT_FILTER_AMN;  /**< Initial Filter Mask*/
 
     /* TYPES **********************************************************************************/
 
