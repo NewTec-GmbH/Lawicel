@@ -68,13 +68,6 @@ public:
     /* TYPES **********************************************************************************/
 
     /** 
-     *  Default constructor creates instance of the class using default values.
-     */
-    SerialInterface()
-    {
-    }
-
-    /** 
      *  Default destructor deletes instance of the class.
      */
     virtual ~SerialInterface()
@@ -131,6 +124,14 @@ public:
      *  @param[in] c     Character to be printed
      */
     virtual void print(char c) = 0;
+
+protected:
+   /** 
+    *  Default constructor creates instance of the class using default values.
+    */
+    SerialInterface()
+    {
+    }
 
 private:
 };

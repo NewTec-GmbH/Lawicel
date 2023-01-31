@@ -79,13 +79,6 @@ public:
     /* TYPES **********************************************************************************/
 
     /**
-     *  Default constructor creates instance of the class using default values.
-     */
-    NVMInterface()
-    {
-    }
-
-    /**
      *  Default destructor deletes instance of the class.
      */
     virtual ~NVMInterface()
@@ -146,6 +139,14 @@ public:
      *  @return success
      */
     virtual bool clearEntries() = 0;
+
+protected:
+   /**
+    *  Default constructor creates instance of the class using default values.
+    */
+   NVMInterface()
+   {
+   }
 
 private:
 };

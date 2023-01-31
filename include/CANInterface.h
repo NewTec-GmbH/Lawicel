@@ -124,13 +124,6 @@ public:
     };
 
     /**
-     *  Default constructor creates instance of the class using default values.
-     */
-    CANInterface()
-    {
-    }
-
-    /**
      *  Default destructor deletes instance of the class.
      */
     virtual ~CANInterface()
@@ -229,6 +222,14 @@ public:
      *  @return success  
      */
     virtual bool pollSingle(Frame &frame) = 0;
+
+protected:
+    /**
+     *  Default constructor creates instance of the class using default values.
+     */
+    CANInterface()
+    {
+    }
 
 private:
 };
