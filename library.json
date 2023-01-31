@@ -1,0 +1,21 @@
+{
+    "name": "Lawicel",
+    "version": "1.0.0",
+    "description": "Implementation of the Lawicel Protocol",
+    "keywords": "Lawicel, CAN, ASCII",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NewTec-GmbH/Lawicel"
+    },
+    "authors": [
+        {
+            "name": "NewTec GmbH",
+            "url": "https://github.com/NewTec-GmbH",
+            "maintainer": true
+        }
+    ],
+    "license": "BSD-3",
+    "dependencies": {},
+    "frameworks": "*",
+    "platforms": "*"
+}
