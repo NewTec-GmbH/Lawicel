@@ -2,7 +2,7 @@
 BSD 3-Clause License
 
 
-Copyright (c) 2020-2021, NewTec GmbH - www.newtec.de
+Copyright (c) 2023, NewTec GmbH - www.newtec.de
 All rights reserved.
 
 
