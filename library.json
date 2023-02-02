@@ -16,6 +16,6 @@
     ],
     "license": "BSD-3",
     "dependencies": {},
-    "frameworks": "arduino",
+    "frameworks": "*",
     "platforms": "*"
 }
