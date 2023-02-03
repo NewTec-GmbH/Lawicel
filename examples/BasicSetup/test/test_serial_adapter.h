@@ -48,7 +48,7 @@ Native Test Serial Adapter for Lawicel Protocol
 #define TEST_WS_ADAPTER_H
 
 /* INCLUDES ***************************************************************************************/
-#include <Serialinterface.h>
+#include <SerialInterface.h>
 #include <stdint.h>
 #include "WString.h"
 
