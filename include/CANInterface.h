@@ -206,14 +206,14 @@ public:
      * 
      *  @return BUS_STATE m_currentState of the CAN-Bus Channel.
      */
-    virtual BUS_STATE getChannelState() = 0;
+    virtual BUS_STATE getChannelState() const = 0;
 
     /**
      *  Gets the Status and Error Flags from the CAN Controller.
      * 
      *  @return  One Byte BCD hex value
      */
-    virtual uint8_t getStatusFlags() = 0;
+    virtual uint8_t getStatusFlags() const = 0;
 
     /**
      *  Polls one Message from the FIFO Buffer.

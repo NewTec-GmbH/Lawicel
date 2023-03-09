@@ -428,7 +428,7 @@ public:
      * 
      *  @return BUS_STATE m_currentState of the CAN-Bus Channel.
      */
-    BUS_STATE getChannelState()
+    BUS_STATE getChannelState() const
     {
         return m_currentState;
     }
@@ -438,7 +438,7 @@ public:
      * 
      *  @return  One Byte BCD hex value
      */
-    uint8_t getStatusFlags()
+    uint8_t getStatusFlags() const
     {
         return 0;
     }
